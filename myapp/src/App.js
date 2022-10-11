@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import DalleShark from './DalleShark.png'
+import email from './images/email.png'
 
 
 let classes = "container-sm bg-success"
@@ -12,7 +13,11 @@ function AddContainer() {
 
 function TestingthisStupid() {
   return(
-  <><img className="image-thumbnail" src = {DalleShark} alt="shark" /> </>
+  <><img className="image-thumbnail" src = {DalleShark} alt="shark" /> 
+  <img className="image-thumbnail" src ={email} alt="email icon"/>
+  
+  </>
+
   )
 }
 
