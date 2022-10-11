@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-// import  "./myapp/src/DALL·E 2022-10-04 13.20.50 - blurry underwater photo of a hammerhead shark swimming towards a school of fish.png"
+import DalleShark from 'myapp/src/DalleShark.png'
 
 
 let classes = "container-sm bg-success"
@@ -12,7 +12,7 @@ function AddContainer() {
 
 function TestingthisStupid() {
   return(
-  <><div>This is so dumb</div></>
+  <><img src="myapp/src/DalleShark.png" alt="shark" /> </>
   )
 }
 
